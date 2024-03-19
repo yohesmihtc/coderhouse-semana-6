@@ -1,0 +1,112 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales*/
+body{
+    color: #2B2B2B;
+    background-color: #E6E6DD;
+}
+
+/*estilos de header*/
+header{
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    margin: 0px 50px;
+    padding: 10px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    box-shadow: 5px 5px 15px black;
+
+}
+
+header img{
+    width: 20%;
+}
+
+header nav{
+    margin-right: 30px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main{
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+    align-items: center;
+    justify-content: center;
+}
+main .img {
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    text-align: center;
+}
+
+main .img img{
+    width: 70%;
+}
+main .textos h1{
+    margin: 10px 0px;
+
+}
+
+main .textos h1 span{
+    display: block;
+}
+main .textos .boton{
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+/* estilos section*/
+
+section{
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    padding: 30px;
+    margin: 0px 50px;
+
+
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+
+    box-shadow: 5px 5px 15px black;
+
+}
+section div{
+    text-align: center;
+}
+
+.section div h3{
+    margin: 10px;
+}
+
+section div img{
+    width: 30%;
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
